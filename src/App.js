@@ -1,9 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router';
 
-export default class App extends Component {
+
+const App = React.createClass({
   render() {
     return (
-      <h1>Hello, world.122xdgrr</h1>
-    );
+        <div>
+          <h1>App</h1>
+          <ul>
+            <li><Link to="/detail">Detail</Link></li>
+            <li><Link to="/index">Index</Link></li>
+          </ul>
+          {this.props.children}
+        </div>
+    )
   }
-}
+})
+
+export default App;
