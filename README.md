@@ -22,5 +22,7 @@ npm install
 ## Soon 
 
 step1: 设计简单的UI，通过React-Router作为路由；
+
 step2:加入reflux
+
 step3:完善koa server , 引入中间件
