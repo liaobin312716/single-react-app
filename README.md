@@ -7,6 +7,7 @@ A example using Koa, React, Reflux, Webpack and Babel6 .
 ## Installation
 
 Checkout in a directory
+
 npm install
 
 ##Running the project
